@@ -1,0 +1,26 @@
+{
+  "env": {
+    "commonjs": true,
+    "es6": true,
+    "node": true
+  },
+  "extends": ["airbnb-base"],
+  "plugins": ["import"],
+  "globals": {
+    "Atomics": "readonly",
+    "SharedArrayBuffer": "readonly"
+  },
+  "parserOptions": {
+    "ecmaVersion": 2020
+  },
+  "rules": {
+    "global-require": "warn",
+    "comma-dangle": "off",
+    "arrow-spacing": "off",
+    "space-in-parens": "off",
+    "arrow-parens": "off",
+    "func-names": "off",
+    "space-before-function-paren": "off",
+    "object-curly-newline": "off",
+  }
+}
